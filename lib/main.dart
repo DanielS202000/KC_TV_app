@@ -13,11 +13,12 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: ' KC Tv',
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
         scaffoldBackgroundColor: Colors.black,
         primaryColor: Colors.redAccent,
         appBarTheme: const AppBarTheme(
-          color: Colors.red,
+          color: Color.fromARGB(255, 139, 9, 0),
         ),
         textTheme:const TextTheme(
           headlineLarge: TextStyle(color: Colors.white, fontSize: 40, fontWeight: FontWeight.bold, fontFamily: 'Helvetica'),
