@@ -14,7 +14,7 @@ class _StartScreenState extends State<StartScreen> {
     return Scaffold(
       appBar: AppBar(
         leading: Padding(
-          padding: const EdgeInsets.all(2.0),
+          padding: const EdgeInsets.all(1.0),
           child: Image.asset('assets/images/BAR2.pn'),
         ),
         title: Text(
